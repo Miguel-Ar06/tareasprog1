@@ -16,10 +16,7 @@ function confirmacion(u: string; c: integer; ced: longint): boolean;
 var
 clave2, x, y: integer;
 usuario2: string;
-(* nota: pude haber hecho como en la clase para repetir y volver a preguntar por el dato erroneo pero por ejemplo
-un ladron acierta la cedula y el cajero pregunta por la clave, pero falla la clave, yo optaria por preguntar
-todos los datos de nuevo en lugar de el unico dato que es erroneo, asi un ladron no sabe que dato fue en el que se equivoco
-esto afecta negativamente al usuario tambien? si pero son cositas, por mas seguridad*)
+
 begin
     writeln('-------------------');
     TextColor(yellow);
